@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 0 40px 30px 40px;
+
+}
+
+.inputsContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+h1{
+  color: blue;
+  margin-top: 50px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: pink; */
+  align-items: center;
+  justify-content: center;
+  
+}
+
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input{
+  padding: 5px 10px;
+  font-size: 20px;
+
+}
+
+button{
+  width: 300px;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: solid 1px #4f4d4f
+  border-radius: 5px;
+  background: rgba(30,30,30, .7);
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+.lyric{
+  text-align: center;
+}
